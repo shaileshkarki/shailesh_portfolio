@@ -1,0 +1,54 @@
+.resume-section, .resume-section button {
+    color: white;
+    background-color: #01152d;
+    font-size: 1.1rem;
+}
+
+.resume-section{
+    margin: 5px 15%;
+}
+
+
+
+.accordion {
+    cursor: pointer;
+    padding: 1.5rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s ease-out;
+    border: solid 2px #7fc6b8;
+    border-radius: 5px;
+}
+.accordion:after {
+    content: '\002B';
+    color:white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.resume-section .active:after {
+    content: "\2212";
+}
+.active, .accordion:hover {
+    background-color: #579c8f; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: block;
+    /* background-color: 112839; */
+    background-color: white;
+    overflow: hidden;
+    color: black;
+    text-align: justify;
+    border: solid 2px #7fc6b8;
+    border-top: none;
+}
+
+.hide {
+    display: none;
+}
+

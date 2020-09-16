@@ -1,0 +1,10 @@
+.home {
+  height: 100%;
+  margin: 0 12%;
+  color: #89f5f5;
+}
+.home > img {
+  border-radius: 50%;
+  height: 150px;
+  border: 5px #01152d ridge;
+}

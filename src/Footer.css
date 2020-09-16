@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  /* left: 0; */
+  bottom: 0;
+  width: 100%;
+  background-color: #01152d;
+  color: white;
+  text-align: center;
+  border-top: solid 2px blue;
+  height: 8%;
+}
+
+.social-contacts {
+  font-size: 1rem;
+}
+
+.social-contacts a,
+.social-contacts p {
+  color: white;
+  margin: 1rem 5px;
+  line-height: 1.5rem;
+}

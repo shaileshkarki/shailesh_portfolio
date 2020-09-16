@@ -1,0 +1,18 @@
+.about {
+    height: 100%;
+    margin:5% 25%;
+    /* color: #89f5f5; */
+    color: white;
+    font-size: 1.3rem;
+  }
+.about > img {
+    border-radius: 50%;
+    height: 200px;
+    border: 2px #7fc6b8 ridge;
+    opacity: 0.8;
+    transition: width 2s, height 4s;
+}
+
+.about > img:hover{
+  opacity: 1;
+}
